@@ -1,0 +1,40 @@
+{
+  "name": "console.message",
+  "version": "0.0.1",
+  "description": "Console message formatter",
+  "author": "James Skinner <spiralx@gmail.com> (https://github.com/spiralx)",
+  "license": "MIT",
+  "homepage": "https://github.com/spiralx/console.message#readme",
+  "bugs": {
+    "url": "https://github.com/spiralx/console.message/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "cross-env NODE_ENV=production webpack -p",
+    "build:dev": "webpack",
+    "dev": "webpack-dev-server",
+    "lint": "tslint ./src/**/*.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spiralx/console.message.git"
+  },
+  "keywords": [
+    "console",
+    "console.message"
+  ],
+  "dependencies": {
+    "@types/es6-promise": "^0.0.32",
+    "@types/node": "^7.0.13"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.1.2",
+    "html-webpack-plugin": "^2.28.0",
+    "tslint": "^5.1.0",
+    "tslint-config-standard": "^5.0.2",
+    "typescript": "^2.2.2",
+    "webpack": "^2.4.1"
+  }
+}

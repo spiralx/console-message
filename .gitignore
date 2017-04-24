@@ -1,0 +1,9 @@
+node_modules/
+coverage/
+dist/
+attic/
+
+.DS_Store
+*.log
+.vscode
+.idea
