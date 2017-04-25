@@ -1,9 +1,9 @@
 
-import Span from './span'
+import { Span } from './span'
 
 // --------------------------------------------------------------------
 
-export default class OutputChainer {
+export default class ConsoleMessage {
 
   readonly root: Span = new Span()
 

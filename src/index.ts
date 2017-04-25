@@ -1,8 +1,8 @@
 
-import OutputChainer from './chainer'
+import ConsoleMessage from './chainer'
 
 // --------------------------------------------------------------------
 
 export default function () {
-  return new OutputChainer()
+  return new ConsoleMessage()
 }
