@@ -3,16 +3,17 @@
     "moduleResolution": "node",
     "target": "es2015",
     "lib": [
+      "es2017",
       "es2016",
       "dom"
     ],
     "sourceMap": true,
+    "declaration": true,
+    "removeComments": false,
+    "preserveConstEnums": false,
     "strict": true,
     "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "typeRoots": [
-      "node_modules/@types"
-    ]
+    "experimentalDecorators": true
   },
   "include": [
     "src"
